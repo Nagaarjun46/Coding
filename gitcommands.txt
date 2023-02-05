@@ -1,0 +1,11 @@
+git init -b main   //to initialize new folder to the git
+
+git add file_name //to add the file to the git
+git add . //to add all the files to the git
+
+git commit -m "some msg" //to save the files to the git
+
+git push origin main  //to add the files from git to github
+
+git pull origin main // to retrieve the repo to the local system
+
