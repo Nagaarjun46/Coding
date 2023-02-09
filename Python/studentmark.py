@@ -20,7 +20,7 @@ def generate_marks_statements(n):
         grade=get_grades(marks)
         students.append((name,marks,grade))
 
-    print("\nName\tMarks\tagrade")
+    print("\nName\tMarks\tgrade")
     for name,marks,grade in students:
         print(f"{name}\t{marks}\t{grade}")
 
